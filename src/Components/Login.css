@@ -1,0 +1,83 @@
+.login-container {
+  display: flex;
+  box-shadow: 1px 2px 9px black;
+  width: 93.3vw;
+ margin:3rem 2rem;
+}
+
+.login-form-container {
+  display: flex;
+  flex-direction: column;
+  padding: 2rem;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+}
+
+.email-input {
+  width: 100%;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  height: 2.5rem;
+  background-color: lightgray;
+  border: none;
+}
+
+.password-input {
+  width: 100%;
+  background-color: lightgray;
+  border: none;
+  height: 2.5rem;
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+}
+
+.login-button-container {
+  display: flex;
+  gap: 10%;
+}
+
+.remember-me-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.check-box {
+  border: 1px solid #850648;
+}
+
+.login-with {
+  text-align: center;
+}
+
+.facebook {
+  text-align: center;
+  color: #9c0352;
+}
+
+.login-button {
+  width: 20rem;
+  padding: 1rem;
+  background-color: #850648;
+  border: none;
+  border-radius: 5px;
+  color: aliceblue;
+  text-decoration: none;
+  text-align: center;
+}
+
+.createaccount-button {
+  width: 20rem;
+  padding: 1rem;
+  color: #850648;
+  border: 1px solid #850648;
+  border-radius: 5px;
+}
+
+.wallpaper {
+  height: 100%;
+  width: 100%;
+}
+
